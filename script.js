@@ -54,7 +54,7 @@ function creation(divAll) {
         document.getElementById("personnages").style.display = "flex";
         perso.className = "divcaract";
         newPerso();
-        perso.innerHTML = listePerso.reverse()[0].nom + " " + listePerso.reverse()[0].lvl + " " + listePerso.reverse()[0].classe;
+        perso.innerHTML = listePerso.reverse()[0].nom + " " + listePerso[0].lvl + " " + listePerso[0].classe;
         Modale.getClose();
     })
 }
