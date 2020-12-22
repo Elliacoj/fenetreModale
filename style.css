@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-family: "Arial Black", sans-serif;
+    font-size: 2rem;
+    background-color: #fac37b;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    width: 100%;
+    font-style: italic;
+    text-align: center;
+    margin: 5% auto 5% auto;
+    text-decoration-line: underline;
+    text-shadow: 5px 5px lightgray;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+}
+
+#personnages {
+    margin-top: 5%;
+    width: 60%;
+    border: 2px solid black;
+    display: none;
+    flex-wrap: wrap;
+}
+
+#button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#open {
+    margin-top: 5%;
+}
+
+button {
+    width: 10%;
+    font-size: 2rem;
+    padding: 1%;
+    border-radius: 20px;
+}
+#close {
+    margin-left: 20%;
+}
+
+#modale {
+    border: 3px solid #5a5959;
+    box-shadow: 5px 5px 15px lightgray;
+    width: 60%;
+    margin: 10% auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.divcarac {
+    width: 45.75%;
+    border: 1px solid #434343;
+    padding: 2%;
+}
+
+.divcaract {
+    width: 45.75%;
+    border: 1px solid #434343;
+    padding: 2%;
+}
